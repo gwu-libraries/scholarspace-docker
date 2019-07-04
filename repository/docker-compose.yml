@@ -1,0 +1,7 @@
+version: "3"
+services:
+    fedora:
+        build: .
+        ports:
+            - "8080:8080"
+            - "8983:8983"
